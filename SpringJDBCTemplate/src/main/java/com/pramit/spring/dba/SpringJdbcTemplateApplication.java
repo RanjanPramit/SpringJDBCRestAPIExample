@@ -1,13 +1,13 @@
-package com.pramit.springdba;
+package com.pramit.spring.dba;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringHibernateH2Application {
+public class SpringJdbcTemplateApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringHibernateH2Application.class, args);
+		SpringApplication.run(SpringJdbcTemplateApplication.class, args);
 	}
 
 }

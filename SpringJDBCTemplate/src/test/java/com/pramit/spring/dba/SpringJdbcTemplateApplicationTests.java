@@ -1,10 +1,10 @@
-package com.pramit.springdba;
+package com.pramit.spring.dba;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringHibernateH2ApplicationTests {
+class SpringJdbcTemplateApplicationTests {
 
 	@Test
 	void contextLoads() {
